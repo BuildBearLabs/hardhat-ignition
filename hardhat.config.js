@@ -10,23 +10,8 @@ module.exports = {
   networks: {
     hardhat: {},
     buildbear: {
-      url: "https://rpc.dev.buildbear.io/spiritual-wicket-systri-warrick-f9c2771d",
+      url: "//Paste the Testnet RPC here from BuildBear Dashboard",
     },
   },
 
-  etherscan: {
-    apiKey: {
-      buildbear: "verifyContract",
-    },
-    customChains: [
-      {
-        network: "buildbear",
-        chainId: 1,
-        urls: {
-          apiURL: "https://rpc.buildbear.io/verify/etherscan/spiritual-wicket-systri-warrick-f9c2771d",
-          browserURL: "https://explorer.buildbear.io/spiritual-wicket-systri-warrick-f9c2771d",
-        },
-      },
-    ],
-  },
 }
