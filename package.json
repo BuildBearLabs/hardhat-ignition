@@ -10,5 +10,10 @@
     "@nomicfoundation/hardhat-toolbox": "3.0.0",
     "hardhat": "^2.14.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.8.1",
+    "wagmi": "^1.4.5",
+    "web3": "^4.2.1"
+  }
 }
